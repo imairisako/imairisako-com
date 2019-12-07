@@ -1,0 +1,18 @@
+// Color
+$color-background: #FFFFFF;
+$color-text: #333333;
+$color-accent: #00A3AE;
+
+// Breakpoint
+$breakpoints: (
+  'phone': 'screen and (min-width: 560px)',
+  'tablet': 'screen and (min-width: 960px)',
+  'pc': 'screen and (min-width: 1200px)',
+  'sp': 'screen and (max-width: 480px)',
+) !default;
+
+@mixin mediaquery($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
