@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `IMAI RISAKO`,
+    title: ``,
     titleTemplate: `%s`,
     description: `Web designer, UI designer and programming fan in Nagoya,Japan.`,
-    url: `https://imairisako.com/`,
-    image: `https://imairisako-com.firebaseapp.com/static/ogp.png`,
+    url: `https://imairisako-com.firebaseapp.com`,
+    image: "https://imairisako-com.firebaseapp.com/static/ogp.png",
     twitterUsername: "@i_mairy",
   },
 

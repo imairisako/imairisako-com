@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import icon from "../images/icon.png"
-import ogimage from "../images/ogp.png"
 
 const Header = ({ siteTitle }) => (
   <header className="l-header">

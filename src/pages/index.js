@@ -4,11 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import ogimage from "../images/ogp.png"
+
 const IndexPage = () => (
   <Layout>
     <SEO
       title='IMAI RISAKO - Web designer'
       description='Web designer, UI designer and programming fan in Nagoya,Japan.'
+      image={ogimage}
     />
     <div className="c-grid__container">
       <div className="c-grid__row">

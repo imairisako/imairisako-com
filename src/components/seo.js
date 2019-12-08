@@ -48,12 +48,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: 'og:image',
+          content: site.siteMetadata.defaultImage,
         },
         {
-          property: `og:image`,
-          content: site.siteMetadata.defaultImage,
+          property: `og:type`,
+          content: `website`,
         },
         {
           name: `twitter:card`,
