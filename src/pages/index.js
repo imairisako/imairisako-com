@@ -21,7 +21,7 @@ const IndexPage = () => (
             </h2>
             <ul className="l-main__list">
               <li className="l-main__list-item">
-                <a href="https://asagi-design.com">Asagi Design / My business website</a>
+                <a href="https://asagi-design.com">Asagi Design - My business website</a>
               </li>
               <li className="l-main__list-item">
                 <a href="https://www.slideshare.net/r1sak0">SlideShare(@r1sak0)</a>
