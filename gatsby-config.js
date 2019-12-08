@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: `%s`,
     description: `Web designer, UI designer and programming fan in Nagoya,Japan.`,
     url: `https://imairisako-com.firebaseapp.com`,
-    image: "https://imairisako-com.firebaseapp.com/static/ogp.png",
+    image: "https://imairisako-com.firebaseapp.com/static/ogp-630ff8d63a7926b972c9439c8419e37c.png",
     twitterUsername: "@i_mairy",
   },
 
