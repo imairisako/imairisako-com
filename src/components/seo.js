@@ -18,7 +18,7 @@ function SEO({ description, lang, meta, title }) {
           siteMetadata {
             title
             description
-            author
+            defaultImage: image
           }
         }
       }
@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: site.siteMetadata.defaultImage,
         },
         {
           name: `twitter:card`,
