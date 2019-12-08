@@ -7,14 +7,43 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO
+      title='IMAI RISAKO - Web designer'
+      description='Web designer, UI designer and programming fan in Nagoya,Japan.'
+    />
+    <div className="c-grid__container">
+      <div className="c-grid__row">
+        <div className="c-grid__block-12">
+          <section className="l-main__profile">
+            <h2 className="l-main__lead">
+              Freelance web designer, UI designer and web developer.
+              <br />
+              I live in Nagoya, Japan.
+            </h2>
+            <ul className="l-main__list">
+              <li className="l-main__list-item">
+                <a href="https://asagi-design.com">Asagi Design / My business website</a>
+              </li>
+              <li className="l-main__list-item">
+                <a href="https://www.slideshare.net/r1sak0">SlideShare(@r1sak0)</a>
+              </li>
+              <li className="l-main__list-item">
+                <a href="https://twitter.com/i_mairy">Twitter(@i_mairy)</a>
+              </li>
+              <li className="l-main__list-item">
+                <a href="https://www.facebook.com/imairisako">Facebook(@imairisako)</a>
+              </li>
+              <li className="l-main__list-item">
+                <a href="https://www.instagram.com/i_mairy/">Instagram(@i_mairy)</a>
+              </li>
+              <li className="l-main__list-item">
+                <a href="mailto:info@asagi-design.com">E-mail</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
