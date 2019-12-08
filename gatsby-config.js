@@ -28,22 +28,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    {
-      resolve: 'gatsby-plugin-module-resolver',
-      options: {
-        root: './src', // <- will be used as a root dir
-        aliases: {
-          '@components': './components', // <- will become ./src/components
-          '@images': './images',
-          '@types': './types',
-          '@services': './services',
-          helpers: './helpers', // <- will become ./src/helpers
-          static: {
-            root: './public', // <- will used as this alias' root dir
-            alias: './static' // <- will become ./public/static
-          }
-        }
-      }
-    },
   ],
 }
